@@ -29,6 +29,6 @@
 # cd /root/Fooocus
 /root/anaconda3/bin/conda init --all
 source ~/.bashrc
-conda env create -f environment.yaml
+/root/anaconda3/bin/conda env create -f environment.yaml
 conda activate /root/anaconda3/envs/fooocus/
 pip install -r requirements_versions.txt
