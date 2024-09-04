@@ -31,4 +31,4 @@
 source ~/.bashrc
 /root/anaconda3/bin/conda env create -f /root/Fooocus/environment.yaml
 conda activate /root/anaconda3/envs/fooocus/
-pip install -r requirements_versions.txt
+pip install -r /root/Fooocus/requirements_versions.txt
