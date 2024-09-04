@@ -27,8 +27,8 @@ cd /root/
 # source ~/.bashrc
 # git clone https://github.com/lllyasviel/Fooocus.git
 # cd /root/Fooocus
+eval "$( /root/anaconda3/bin/conda shell.bash hook)" 
 /root/anaconda3/bin/conda init --all
-source /root/.bashrc
 /root/anaconda3/bin/conda env create -f /root/Fooocus/environment.yaml
-conda activate /root/anaconda3/envs/fooocus/
+/root/anaconda3/bin/conda activate /root/anaconda3/envs/fooocus/
 pip install -r /root/Fooocus/requirements_versions.txt
