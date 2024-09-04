@@ -1124,5 +1124,6 @@ shared.gradio_root.launch(
     share=args_manager.args.share,
     auth=check_auth if (args_manager.args.share or args_manager.args.listen) and auth_enabled else None,
     allowed_paths=[modules.config.path_outputs],
-    blocked_paths=[constants.AUTH_FILENAME]
+    blocked_paths=[constants.AUTH_FILENAME],
+    root_path="/default-path",
 )
