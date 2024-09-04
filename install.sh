@@ -1,4 +1,8 @@
 #/bin/bash
+
+# To /root
+cd /root/
+
 # Install driver
 apt update -y
 apt install ubuntu-drivers-common -y
@@ -21,7 +25,6 @@ rm Anaconda3-2024.06-1-Linux-x86_64.sh
 
 # Install Fooocus
 source ~/.bashrc
-cd /root/
 git clone https://github.com/lllyasviel/Fooocus.git
 cd /root/Fooocus
 /root/anaconda3/bin/conda init -All
