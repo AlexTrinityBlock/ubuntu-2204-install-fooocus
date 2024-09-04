@@ -1,7 +1,7 @@
 #/bin/bash
 
 # To /root
-# cd /root/
+cd /root/
 
 # Install driver
 # apt update -y
