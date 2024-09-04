@@ -37,4 +37,5 @@ pip install -r /root/Fooocus/requirements_versions.txt
 wget -P /root/Fooocus/ https://raw.githubusercontent.com/AlexTrinityBlock/ubuntu-2204-install-fooocus/master/auth.json
 
 # Replace default web ui for path setting
+rm /root/Fooocus/webui.py
 wget -P /root/Fooocus/ https://raw.githubusercontent.com/AlexTrinityBlock/ubuntu-2204-install-fooocus/master/webui.py
