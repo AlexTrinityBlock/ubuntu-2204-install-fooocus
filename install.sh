@@ -13,7 +13,7 @@ nvidia-smi
 
 # Install nvidia driver
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
-dpkg -i cuda-keyring_1.1-1_all.deb -y
+dpkg -i cuda-keyring_1.1-1_all.deb
 apt-get update -y
 apt-get install cuda-toolkit -y
 apt-get install nvidia-gds -y
