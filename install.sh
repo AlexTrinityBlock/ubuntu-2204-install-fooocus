@@ -34,4 +34,4 @@ eval "$( /root/anaconda3/bin/conda shell.bash hook)"
 pip install -r /root/Fooocus/requirements_versions.txt
 
 # Set default user password
-wget https://raw.githubusercontent.com/AlexTrinityBlock/ubuntu-2204-install-fooocus/master/auth.json
+wget -P /root/Fooocus/ https://raw.githubusercontent.com/AlexTrinityBlock/ubuntu-2204-install-fooocus/master/auth.json
