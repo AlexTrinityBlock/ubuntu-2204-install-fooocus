@@ -24,7 +24,8 @@ source ~/.bashrc
 cd /root/
 git clone https://github.com/lllyasviel/Fooocus.git
 cd /root/Fooocus
-/root/anaconda3/bin/conda init
-/root/anaconda3/bin/conda env create -f environment.yaml
-/root/anaconda3/bin/conda activate /root/anaconda3/envs/fooocus/
+/root/anaconda3/bin/conda init -All
+source ~/.bashrc
+conda env create -f environment.yaml
+conda activate /root/anaconda3/envs/fooocus/
 pip install -r requirements_versions.txt
